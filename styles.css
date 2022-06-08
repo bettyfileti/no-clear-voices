@@ -59,6 +59,10 @@ figcaption {
     justify-content: space-between;
 }
 
+.sound-item > div > p {
+    color: red;
+}
+
 /* -------------------------------------------------------------- */
 
 
