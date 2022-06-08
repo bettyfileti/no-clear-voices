@@ -7,8 +7,23 @@ h1{
     font-family: 'Joan', serif;
 }
 
+
+h3 {
+    padding-bottom: 32px;
+    border-bottom: 1px solid black;
+}
+
 figure {
-    margin: 0;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 8px;
 }
 
 /* -------------------------------------------------------------- */
@@ -22,6 +37,7 @@ figure {
 .text-container {
     max-width: 800px;
     margin: auto;
+    padding: 24px;
 }
 
 .collection-container {
@@ -30,15 +46,28 @@ figure {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .sound-item {
     width: calc((100% / 3) - 60px);
-    background-color: lightskyblue;
+    background-color: #A6C7E8;
     padding: 1rem;
     min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* -------------------------------------------------------------- */
 
 
+#the-dataset {
+    background-color: antiquewhite;
+    padding: 2px 8px 2px 8px;
+}
+
+#the-dataset h2 {
+    padding: 32px;
+    text-align: center;
+}
