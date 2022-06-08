@@ -1,5 +1,4 @@
 body{
-    font-family: 'Joan', serif;
     font-family: 'Nuosu SIL', serif;
 }
 
@@ -12,6 +11,11 @@ h3 {
     padding-bottom: 32px;
     border-bottom: 1px solid black;
 }
+
+p{
+    font-family: 'Nuosu SIL', serif;
+}
+
 
 figure {
     margin: auto;
