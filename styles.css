@@ -59,8 +59,8 @@ figcaption {
     justify-content: space-between;
 }
 
-.sound-item > div > p {
-    color: red;
+.sound-item > div > p:first-of-type {
+    font-style: italic; 
 }
 
 /* -------------------------------------------------------------- */
